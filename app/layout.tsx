@@ -17,18 +17,18 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://happy-birthday-jojy.netlify.app/"),
+  metadataBase: new URL("https://happy-birthday-jojy.vercel.app/"),
   title: "your birthday gift",
   description: "open for your birthday gift baby, love you",
   generator: "Digitiva",
   openGraph: {
-    url: "https://happy-birthday-jojy.netlify.app/",
+    url: "https://happy-birthday-jojy.vercel.app/",
     type: "website",
     title: "your birthday gift",
     description: "open for your birthday gift baby, love you",
     images: [
       {
-        url: "https://happy-birthday-jojy.netlify.app/preview.jpg",
+        url: "https://happy-birthday-jojy.vercel.app/preview.jpg",
         width: 1200,
         height: 630,
         alt: "birthday Gift Preview",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "your birthday gift",
     description: "open for your birthday gift baby, love you",
-    images: ["https://happy-birthday-jojy.netlify.app/preview.jpg"],
+    images: ["https://happy-birthday-jojy.vercel.app/preview.jpg"],
   },
   icons: {
     icon: "/preview.jpg",
@@ -56,14 +56,14 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* ✅ Open Graph tags for Facebook & WhatsApp previews */}
-        <meta property="og:url" content="https://happy-birthday-jojy.netlify.app/" />
+        <meta property="og:url" content="https://happy-birthday-jojy.vercel.app/" />
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content="your birthday gift" />
         <meta property="og:description" content="open for your birthday gift baby, love you" />
         <meta
           property="og:image"
-          content="https://happy-birthday-jojy.netlify.app/preview.jpg"
+          content="https://happy-birthday-jojy.vercel.app/preview.jpg"
         />
 
         <meta property="og:image:width" content="1200" />
@@ -75,7 +75,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="your birthday gift" />
         <meta name="twitter:description" content="open for your birthday gift baby, love you" />
-        <meta name="twitter:image" content="https://happy-birthday-jojy.netlify.app/preview.jpg" />
+        <meta name="twitter:image" content="https://happy-birthday-jojy.vercel.app/preview.jpg" />
 
         {/* Preload PNG with high priority to eliminate lag on Netlify */}
         <link
